@@ -2,6 +2,7 @@ import React from 'react'
 import { Alerts } from './Alerts'
 import { Card } from './Card'
 
+
 export const Home = () => {
   return (
     <div>
@@ -9,8 +10,8 @@ export const Home = () => {
 
       <h1 className='fondoRojo'>Hola Mundo</h1>
 
-
       <h2>Props</h2>
+
       <Alerts titulo='Titulo de alerta 1'
               tipo='alert alert-primary'
       />
@@ -33,7 +34,7 @@ export const Home = () => {
             imagen='react.png'
             titulo='React'
             descripcion='Descripción de react.......'
-          /> 
+          />  
         </div>
         <div className='col-md-3'>
           <Card 
